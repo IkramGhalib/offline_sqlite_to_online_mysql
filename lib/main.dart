@@ -138,7 +138,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Column(
         children: [
           Padding(
-            padding: const EdgeInsets.all(0.5),
+            padding: const EdgeInsets.all(8.0),
             child: TextField(
               controller: meter_no,
               decoration: InputDecoration(hintText: 'Enter Meter No'),
